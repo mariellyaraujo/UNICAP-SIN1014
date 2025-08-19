@@ -5,7 +5,7 @@ Class Departamento {
     /// get set codigo
     public void setCodigo(int codigo){
         if(codigo > 0) this.codigo = codigo;
-        else SYstem.out.println("coloque um codigo maior que 0");
+        else System.out.println("coloque um codigo maior que 0");
     }
 
     public int getCodigo(){
@@ -28,4 +28,5 @@ Class Departamento {
         setCodigo(codigo);
         setNome(nome);
     }
+
 }
