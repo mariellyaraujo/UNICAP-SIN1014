@@ -1,7 +1,7 @@
-package atv2;
+package atvsClasse.atv2;
 
 public class Heranca {
     public static void main (String[] args){
-        
+
     }
 }

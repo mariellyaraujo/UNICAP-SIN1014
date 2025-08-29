@@ -1,4 +1,4 @@
-package atv2;
+package atvsClasse.atv2;
 
 public class ClientePessoaFisica extends Cliente {
     String cpf;

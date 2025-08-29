@@ -1,4 +1,6 @@
-class Funcionario {
+package atvsClasse.atv1;
+
+public class Funcionario {
     private int matricula;
     private String nome;
     private Departamento depto;
