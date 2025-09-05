@@ -2,7 +2,11 @@ package atvsClasse.atv2;
 
 public class Heranca {
     public static void main (String[] args){
+        Cliente x = new ClientePessoaFisica("melly fisica", "boa vista", "123");
+        Cliente y = new ClientePessoaJuridica("melly juridica", "são gonçalo", 143);
 
+        Heranca.imprime(x);
+        Heranca.imprime(y);
     }
 
     public static void imprime(Cliente c){
