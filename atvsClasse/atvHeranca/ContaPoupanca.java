@@ -20,7 +20,7 @@ public class ContaPoupanca extends ContaBancaria{
 
     public void calcularNovoSaldo(double taxa){
         double saldo = getSaldo();
-        setSaldo(saldo + saldo*taxa);
+        setSaldo(saldo + (saldo*taxa));
     }
 
 }
