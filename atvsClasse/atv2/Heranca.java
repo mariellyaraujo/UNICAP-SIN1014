@@ -10,9 +10,9 @@ public class Heranca {
 
         if(c instanceof ClientePessoaFisica){
             System.out.println("CPF: " + ((ClientePessoaFisica)c).getCpf());
-        } //else if (c instanceof ClientePessoaJuridica){
-           // System.out.println("CNPJ: " + ((ClientePessoaJuridica)c).getCnpj());
-        //}
+        } else if (c instanceof ClientePessoaJuridica){
+            System.out.println("CNPJ: " + ((ClientePessoaJuridica)c).getCnpj());
+        }
 
     }
 }
