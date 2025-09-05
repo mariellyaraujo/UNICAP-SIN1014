@@ -39,4 +39,13 @@ public class Filme {
     public int getAnoLancamento(){
         return this.anoLancamento;
     }
+
+    ///to String
+    public String toString(){
+        if(this.anoLancamento == 0){
+            return "Titulo: " + getTitulo() + "\nGênero: " + getGenero() + "\nAno de Lançamento: Indefinido";
+        } else {
+            return "Titulo: " + getTitulo() + "\nGênero: " + getGenero() + "\nAno de Lançamento: " + getAnoLancamento();
+        }
+    }
 }
