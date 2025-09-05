@@ -7,7 +7,7 @@ public class ContaEspecial extends ContaBancaria{
         super(cliente, numConta, saldo);
         setLimite(limite);
     }
-    ////fazer os setters e getters do conta bancaria
+
     public void setLimite(double limite){
         this.limite = limite;
     }
@@ -15,4 +15,14 @@ public class ContaEspecial extends ContaBancaria{
     public double getLimite(){
         return this.limite;
     }
+
+    @Override
+    public boolean sacar(double valor){
+        if(getSaldo() - valor >= limite){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }
