@@ -5,6 +5,7 @@ public class CachorroAdestrado extends Cachorro{
 
     public CachorroAdestrado(String nome, String raca){
         super(nome, raca);
+        setFrescura(true);
     }
 
     public void setFrescura(boolean frescura){
