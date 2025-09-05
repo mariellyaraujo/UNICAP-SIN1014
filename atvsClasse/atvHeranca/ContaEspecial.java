@@ -3,7 +3,7 @@ package atvsClasse.atvHeranca;
 public class ContaEspecial extends ContaBancaria{
     private double limite;
 
-    public ContaEspecial(double limite, String cliente, int numConta, double saldo){
+    public ContaEspecial(String cliente, int numConta, double saldo, double limite){
         super(cliente, numConta, saldo);
         setLimite(limite);
     }

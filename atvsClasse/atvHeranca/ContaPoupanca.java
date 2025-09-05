@@ -9,7 +9,6 @@ public class ContaPoupanca extends ContaBancaria{
         setDiaDeRendimento(diaDeRendimento);
     }
 
-    ////fazer os setters e getters do conta bancaria
     ///set & get
     public void setDiaDeRendimento(int diaDeRendimento){
         this.diaDeRendimento = diaDeRendimento;
@@ -23,4 +22,5 @@ public class ContaPoupanca extends ContaBancaria{
         double saldo = getSaldo();
         setSaldo(saldo + saldo*taxa);
     }
+
 }
