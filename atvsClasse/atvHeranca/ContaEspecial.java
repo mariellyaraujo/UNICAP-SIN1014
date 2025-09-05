@@ -19,6 +19,7 @@ public class ContaEspecial extends ContaBancaria{
     @Override
     public boolean sacar(double valor){
         if(getSaldo() - valor >= limite){
+            setSaldo(getSaldo() - valor);
             return true;
         } else {
             return false;

@@ -42,6 +42,7 @@ public class ContaBancaria {
     ///metodos
     public boolean sacar(double valor){
         if(this.saldo - valor >= 0){
+            this.saldo -= valor;
             return true;
         } else {
             return false;
