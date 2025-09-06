@@ -6,10 +6,18 @@ public class Cliente {
     private int saldo;
     private int numConta;
 
+    ///construtores
     public Cliente(String nome, String cpf, int saldo, int numConta){
         setNome(nome);
         setCpf(cpf);
         setSaldo(saldo);
+        setNumConta(numConta);
+    }
+    //sobrecarga
+    public Cliente(String nome, String cpf, int numConta){
+        setNome(nome);
+        setCpf(cpf);
+        setSaldo(0);
         setNumConta(numConta);
     }
 
