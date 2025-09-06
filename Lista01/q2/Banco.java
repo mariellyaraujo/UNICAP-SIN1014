@@ -20,4 +20,20 @@ public class Banco {
 
         return clientes;
     }
+
+    public String operacoes(){
+        for(int i = 0; i < clientes.length; i++){
+            clientes[i].saque(100);
+            clientes[i].deposito(50);
+
+            if(clientes[i].extrato() < 0){
+                clientes[i].setSaldo(0);
+            }
+        }
+
+        clientes[1].setNome("Ada LoveLace");
+        clientes[0].setCpf("123456789");
+
+        return clientes[0].toString() + "\n" + clientes[1].toString();
+    }
 }
