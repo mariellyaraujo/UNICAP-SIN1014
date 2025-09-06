@@ -59,4 +59,8 @@ public class Cliente {
     public void deposito(int val){
         this.saldo += val;
     }
+    //toString
+    public String toString(){
+        return "Cliente: " + getNome() + "\nCPF: " + getCpf() + "\nConta: " + getNumConta() + "\nSaldo: " + getSaldo();
+    }
 }
