@@ -53,4 +53,8 @@ public class Cliente {
     public int extrato(){
         return getSaldo();
     }
+
+    public int saque(int val){
+        return this.saldo -= val;
+    }
 }
