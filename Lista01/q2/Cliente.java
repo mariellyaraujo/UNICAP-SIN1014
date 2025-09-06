@@ -48,4 +48,9 @@ public class Cliente {
     public int getNumConta(){
         return this.numConta;
     }
+
+    ///metodos
+    public int extrato(){
+        return getSaldo();
+    }
 }
