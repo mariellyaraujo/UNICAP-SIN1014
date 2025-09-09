@@ -3,11 +3,11 @@ package atvsClasse.atvPolimorfismo;
 public class Cachorro extends Animal{
     
     @Override
-    public String fazerSom(){
-        return "o cachorro faz: AuAu";
+    public void fazerSom(){
+        System.out.println("o cachorro faz: AuAu");
     }
 
-    public String abanarRabo(){
-        return "o cachorro abana o rabo";
+    public void abanarRabo(){
+        System.out.println("o cachorro abana o rabo");
     }
 }

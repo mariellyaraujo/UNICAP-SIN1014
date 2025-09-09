@@ -1,11 +1,11 @@
 package atvsClasse.atvPolimorfismo;
 
 public class Animal{
-    public String fazerSom(){
-        return "o animal faz algum som";
+    public void fazerSom(){
+        System.out.println("o animal faz algum som");
     }
 
-    public String dormir(){
-        return "O animal está dormindo";
+    public void dormir(){
+        System.out.println("O animal está dormindo");
     }
 }
