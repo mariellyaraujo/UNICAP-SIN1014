@@ -6,4 +6,8 @@ public class Cachorro extends Animal{
     public String fazerSom(){
         return "o cachorro faz: AuAu";
     }
+
+    public String abanarRabo(){
+        return "o cachorro abana o rabo";
+    }
 }
