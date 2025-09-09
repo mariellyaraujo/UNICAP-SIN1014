@@ -2,13 +2,10 @@ package atvsClasse.atvPolimorfismo;
 
 public class Petshop {
     public static void main(String[] args){
-        Animal[] animais = new Animal[2];
-
-        Animal c = new Cachorro();
-        Animal g = new Gato();
-
-        animais[0] = c;
-        animais[1] = g;
+        Animal[] animais = new Animal[3];
+        animais[0] = new Cachorro();
+        animais[1] = new Gato();
+        animais[2] = new Gato();
 
         Petshop.interagirComAnimais(animais);
     }
