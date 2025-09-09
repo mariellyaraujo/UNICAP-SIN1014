@@ -10,4 +10,16 @@ public class Petshop {
         animais[0] = c;
         animais[1] = g;
     }
+
+    public static void interagirComAnimais(Animal[] animais){
+        for(int i = 0; i < animais.length; i++){
+            animais[i].fazerSom();
+
+            if(animais[i] instanceof Cachorro){
+                ((Cachorro)animais[i]).abanarRabo();
+            } else if (animais[i] instanceof Gato){
+                ((Gato)animais[i]).arranharMoveis();
+            }
+        }
+    }
 }
