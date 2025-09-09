@@ -7,4 +7,8 @@ public class Gato extends Animal{
         return "o gato faz: Miau Miau";
     }
 
+    public String arranharMoveis(){
+        return "o gato arranha os móveis";
+    }
+
 }
