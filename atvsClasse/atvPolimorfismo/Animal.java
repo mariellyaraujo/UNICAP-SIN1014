@@ -6,6 +6,6 @@ public class Animal{
     }
 
     public void dormir(){
-        System.out.println("O animal está dormindo");
+        System.out.println("O animal está dormindoo");
     }
 }
