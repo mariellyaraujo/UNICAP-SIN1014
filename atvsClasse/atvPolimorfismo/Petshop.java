@@ -9,6 +9,8 @@ public class Petshop {
 
         animais[0] = c;
         animais[1] = g;
+
+        Petshop.interagirComAnimais(animais);
     }
 
     public static void interagirComAnimais(Animal[] animais){
