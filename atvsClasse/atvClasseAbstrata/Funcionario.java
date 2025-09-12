@@ -24,7 +24,5 @@ public abstract class Funcionario {
     }
 
     ///metodos
-    public void aumentaSalario(){
-        
-    }
+    public abstract void aumentaSalario();
 }
