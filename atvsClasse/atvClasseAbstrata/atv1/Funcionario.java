@@ -1,4 +1,4 @@
-package atvsClasse.atvClasseAbstrata;
+package atvsClasse.atvClasseAbstrata.atv1;
 
 public abstract class Funcionario {
     private String nome;

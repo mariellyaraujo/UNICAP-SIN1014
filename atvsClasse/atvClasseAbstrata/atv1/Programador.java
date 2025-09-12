@@ -1,4 +1,4 @@
-package atvsClasse.atvClasseAbstrata;
+package atvsClasse.atvClasseAbstrata.atv1;
 
 public class Programador extends Funcionario{
     public Programador(String nome, double salario){
