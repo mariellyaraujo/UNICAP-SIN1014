@@ -4,6 +4,10 @@ public abstract class Funcionario {
     private String nome;
     private double salario;
 
+    public Funcionario(String nome, double salario){
+        setNome(nome);
+        setSalario(salario);
+    }
     //// setters
     public void setNome(String nome){
         this.nome = nome;
