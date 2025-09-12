@@ -7,6 +7,6 @@ public class Gerente extends Funcionario {
 
     @Override
     public void aumentaSalario(){
-        setSalario(getSalario() + (getSalario() * 0.20));
+        setSalario(getSalario() + (getSalario() * 0.10));
     }
 }
