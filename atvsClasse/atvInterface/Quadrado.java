@@ -1,10 +1,15 @@
 package atvsClasse.atvInterface;
 
 class Quadrado implements FormaGeometrica{
-    public void area(){
+    private double raio;
+    private static final double pi = 3.14;
 
+    @Override
+    public double area(){
+        return pi * (raio * raio);
     }
-    public void comprimento(){
-        
+    @Override
+    public double comprimento(){
+        return 2 * pi * raio;
     }
 }
