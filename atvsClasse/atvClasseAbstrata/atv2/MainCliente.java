@@ -5,5 +5,7 @@ public class MainCliente {
         InfoCliente infoc1 = new InfoClientePessoaFisica("71437729410");
         Cliente c1 = new ClienteFidelizacao("melly fiel", "boa vista", infoc1, 66.6, "23");
 
+        System.out.println(c1);
+
     }
 }
