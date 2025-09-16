@@ -1,4 +1,4 @@
-package atvsClasse.atvClasseAbstrata.atv1.atv2;
+package atvsClasse.atvClasseAbstrata.atv2;
 
 public class InfoClientePessoaJuridica extends InfoCliente{
     private String cnpj;

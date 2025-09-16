@@ -1,4 +1,4 @@
-package atvsClasse.atvClasseAbstrata.atv1.atv2;
+package atvsClasse.atvClasseAbstrata.atv2;
 
 public abstract class Cliente {
     private String nome;
