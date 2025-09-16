@@ -3,8 +3,8 @@ package atvsClasse.atvClasseAbstrata.atv1.atv2;
 public class ClienteFidelizacao extends Cliente{
     private double bonus;
     private String validade;
-    public ClienteFidelizacao(String nome, String endereco, double bonus, String validade){
-        super(nome, endereco);
+    public ClienteFidelizacao(String nome, String endereco, InfoCliente infocliente, double bonus, String validade){
+        super(nome, endereco, infocliente);
 
         setBonus(bonus);
         setValidade(validade);
