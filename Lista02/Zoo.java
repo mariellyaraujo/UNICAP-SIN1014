@@ -1,34 +1,26 @@
 package Lista02;
-import java.util.ArrayList;
-import java.util.Scanner;
-public class Zoo {
-    Scanner s = new Scanner(System.in);
 
+import java.util.ArrayList;
+
+public class Zoo {
     private ArrayList<Animal> animals;
 
-    public Zoo (ArrayList<Animal> animals){
-        setAnimals(animals); 
+    public Zoo() {
+        animals = new ArrayList<>();
     }
 
-    public void setAnimals(ArrayList<Animal> animals){
-        this.animals = animals;
-    }
-    public ArrayList<Animal> getAnimals(){
-        return this.animals;
-    }
-
-    public void addAnimal(Animal animal){
+    public void addAnimal(Animal animal) {
         animals.add(animal);
     }
 
-    public ArrayList<Animal> listAnimals(){
+    public ArrayList<Animal> listAnimals() {
         return animals;
     }
 
-    public boolean removeAnimal(long id){
-        for (Animal animal : animals) {
-            if (animal.getId() == id) {
-                animals.remove(animal);
+    public boolean removeAnimal(long id) {
+        for (Animal a : animals) {
+            if (a.getId() == id) {
+                animals.remove(a);
                 return true;
             }
         }

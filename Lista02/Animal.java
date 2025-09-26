@@ -7,15 +7,15 @@ public abstract class Animal {
     private String name;
     private int age;
     private double weight;
-    private ArrayList<String> abilities;
+    protected ArrayList<String> abilities;
 
     ////construtur
-    public Animal (long id, String name, int age, double weight, ArrayList<String> abilities){
+    public Animal (long id, String name, int age, double weight){
         setId(id);
         setName(name);
         setAge(age);
         setWeight(weight);
-        setAbilities(abilities);
+        this.abilities = new ArrayList<>();
     }
     /// setters
     public void setId(long id){
@@ -59,5 +59,10 @@ public abstract class Animal {
         } else {
             return getName() + " can't " + ability;
         }
+    }
+
+    @Override
+    public String toString() {
+        return "ID: " + id + ", Nome: " + name + ", Idade: " + age + ", Peso: " + weight + ", Habilidades: " + abilities;
     }
 }
