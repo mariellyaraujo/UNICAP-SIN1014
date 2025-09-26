@@ -10,8 +10,12 @@ public abstract class Animal {
     private ArrayList<String> abilities;
 
     ////construtur
-    public Animal (long id, String name, int age, double weight, ArrayList<String> abilitiees){
-
+    public Animal (long id, String name, int age, double weight, ArrayList<String> abilities){
+        setId(id);
+        setName(name);
+        setAge(age);
+        setWeight(weight);
+        setAbilities(abilities);
     }
     /// setters
     public void setId(long id){
