@@ -1,5 +1,5 @@
 package Lista02;
-import java.util.ArrayList;
+
 import java.util.Scanner;
 public class Main {
     public static void main (String[] args){
@@ -95,11 +95,14 @@ public class Main {
 
             case 6:
                 System.exit(0);
+                s.close();
                 break;
 
             default:
                 System.out.println("Opção não enconmtrada");
         }
         }
+    
     }
+    
 }
